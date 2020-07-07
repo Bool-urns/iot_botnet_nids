@@ -9,5 +9,7 @@
 
 
 
-<h1>table of contents</h1>
-The final project paper can be found in the docs folder
+<h1>Table of Contents</h1>
+<ol>
+  <li>The final project paper can be found in the docs folder</li>
+</ol>  
