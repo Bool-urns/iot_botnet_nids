@@ -16,4 +16,4 @@
 
 <h1>Installation and Usage</h1>
 <p>Due to the fact that this was a research project with a focus on attaining results instead of creating a usable application for others, this page is intended more as a guide to the project itself and is not intended to be installed or used by others.</p>
-<p>this is also why the build, test and tools folders are all currently empty</p>
+<p>This is also why the build, test and tools folders are all currently empty</p>
