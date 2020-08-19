@@ -12,8 +12,8 @@
 
 <h1>Project Structure</h1>
 <ul>
-  <li>The final project paper can be found in the docs folder</li>
-  <li>src contains:
+  <li>The final project paper can be found in the <b>docs</b> folder</li>
+  <li><b>src</b> contains:
     <ol>
       <li><b>Dataset and Features</b>: this contains the condensed dataset used in this project orginally from *here* and Python notebooks explaining the feature extraction process</li>
       <li><b>Measuring</b>: this contains the bash and Python scripts used for measuring measuring the metrics outlined the Metrics section below</li>
