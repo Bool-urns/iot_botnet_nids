@@ -16,7 +16,7 @@
   <li><b>src</b> contains:
     <ol>
       <li><b>Dataset and Features</b>: this contains the condensed dataset used in this project orginally from *here* and Python notebooks explaining the feature extraction process</li>
-      <li><b>Measuring</b>: this contains the bash and Python scripts used for measuring measuring the metrics outlined the Metrics section below</li>
+      <li><b>Measuring</b>: this contains the bash and Python scripts used for measuring the metrics outlined the Metrics section below</li>
       <li><b>NIDS</b>: this contains the full implementation of the basic NIDS used for testing in this project</li>
       <li><b>Classification</b>: this contains the implementations used of the five classification algorithms outlined below</li>
 </ul>  
@@ -24,3 +24,6 @@
 <h2>Installation and Usage</h2>
 <p>Due to the fact that this was a research project with a focus on attaining results instead of creating a usable application for others, this page is intended more as a guide to the project itself and is not intended to be installed or used by others.</p>
 
+<h1>Data Gathering,/h1>
+  <p>With the huge Machine Learning element to the project, using a high-quality and realistic dataset was fundemental. Initially, the intention with this project was to create a dataset to be used too. However after re-evaluating the priorities of the project, I decided this was outside the scope.</p>
+  <p>Many datasets exist for ML-based intrusion detection, like <a href="https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html">KDD</a> and <a href="https://www.ll.mit.edu/r-d/datasets">the DARPA ones</a></p>
