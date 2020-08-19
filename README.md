@@ -1,4 +1,4 @@
-# Botnet Network Intrusion Detection on Resource Constrained Devices for IoT Applications
+# IoT-based Network Intrusion Detection
 
 <b>This is my masters project, which won the PwC Ireland award for M.Sc in Computing (March 2020)</b>
 <p>The project explores the idea of machine learning-based network intrusion detection (NIDS) on so-called 'Internet of Things' (IoT) devices, focusing on one of the biggest threats to IoT devices: becoming compromised as part of a Botnet.</p>
