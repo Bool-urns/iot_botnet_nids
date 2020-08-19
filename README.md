@@ -26,4 +26,6 @@
 
 <h1>Data Gathering</h1>
   <p>With the huge Machine Learning element to the project, using a high-quality and realistic dataset was fundemental. Initially, the intention with this project was to create a dataset to be used too. However after re-evaluating the priorities of the project, I decided this was outside the scope.</p>
-  <p>Many datasets exist for ML-based intrusion detection, like <a href="https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html">KDD</a> and <a href="https://www.ll.mit.edu/r-d/datasets">the DARPA ones</a> however with the focus of the project being on IoT and botnets, these datasets seemed unrealistic (and also quite old). A Number of IoT-based datasets existed such as </p>
+  <p>Many datasets exist for ML-based intrusion detection, like <a href="https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html">KDD</a> and <a href="https://www.ll.mit.edu/r-d/datasets">the DARPA ones</a> however with the focus of the project being on IoT and botnets, these datasets seemed unrealistic (and also quite old). A Number of IoT-based datasets existed such as <a href="https://arxiv.org/abs/1804.04159">Machine Learning DDoS Detection for Consumer Internet of Things Devices paper</a> but as *this research paper* found in it's evaluation of IoT IDS datasets, it was unrealistic etc</p>
+<h1>Dataset Evaluation and Feature Selection</h1>
+
