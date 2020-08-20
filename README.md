@@ -27,6 +27,15 @@
   <p>Many datasets exist for ML-based intrusion detection, like <a href="https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html">KDD</a> and <a href="https://www.ll.mit.edu/r-d/datasets">the DARPA ones</a> however with the focus of the project being on IoT and botnets, these datasets seemed unrealistic (and also quite old). A Number of IoT-based datasets existed such as the one created from <a href="https://arxiv.org/abs/1804.04159">this paper</a> but as <a href="https://arxiv.org/abs/1811.00701">this comparison paper</a> found in it's evaluation of IoT IDS datasets, generally these datatsets suffered from a lack of inclusion of IoT traffic, were not realistic or did not include realistic attack scenarios. This same paper that did these comparisons also created it's own dataset called <a href="https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/bot_iot.php">BoT-IoT</a>.</p>
   <p>This dataset aimed to combat the three issues listed above by simulating more realistic attack scenarios from a range of IoT devices and was ultimately chosen to be used in this project.</p>
 <h1>Dataset Evaluation and Feature Selection</h1>
+<p>The dataset contained ten attack classes, broken up into three main groups:</p>
+<ol>
+  <li>Data theft:</li>
+  <ol>
+    <li>Key logging</li>
+    <li>Data Exfiltration</li>
+  </ol>
+  <li>Data gathering:</li>
+</ol>
 <h1>The Five Algorithms</h1>
 <h1>System Design and Implementation</h1>
 <h1>Metrics</h1>
