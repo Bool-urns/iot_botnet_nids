@@ -54,7 +54,7 @@
 <h1>The Five Algorithms</h1>
 <p>The five algorithms below were used for comparison:</p>  
 <ol>
-  <li><a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
+  <li> <a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
   <li><a href="https://github.com/BonsaiAI">Bonsai</a></li>
   <li><a href="https://github.com/radu-dogaru/Super_Fast_Vector_Classifier">Super Fast Support Vector Classifier</a></li>
   <li><a href="https://xgboost.readthedocs.io/en/latest/">XGBoost</a></li>
