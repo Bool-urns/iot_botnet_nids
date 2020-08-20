@@ -37,6 +37,7 @@
     <li>UDP DDoS</li>
     <li>HTTP DoS</li>
     <li>HTTP DDos</li>
+  </ol>  
   <li>Data theft:</li>
   <ol>
     <li>Key logging</li>
