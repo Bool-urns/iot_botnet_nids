@@ -35,6 +35,9 @@
     <li>Data Exfiltration</li>
   </ol>
   <li>Data gathering:</li>
+  <ol>
+    <li>Service Scanning</li>
+    <li>OS fingerprinting</li>
 </ol>
 <h1>The Five Algorithms</h1>
 <h1>System Design and Implementation</h1>
