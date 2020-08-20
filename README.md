@@ -28,26 +28,26 @@
   <p>This dataset aimed to combat the three issues listed above by simulating more realistic attack scenarios from a range of IoT devices and was ultimately chosen to be used in this project.</p>
 <h1>Dataset Evaluation and Feature Selection</h1>
 <p>The dataset contained ten attack classes, broken up into three main groups:</p>
-<ol>
+<ul>
   <li>Denial of service</li>
-  <ol>
+  <ul>
     <li>TCP Dos</li>
     <li>TCP DDoS</li>
     <li>UDP DoS</li>
     <li>UDP DDoS</li>
     <li>HTTP DoS</li>
     <li>HTTP DDos</li>
-  </ol>  
+  </ul>  
   <li>Data theft:</li>
-  <ol>
+  <ul>
     <li>Key logging</li>
     <li>Data Exfiltration</li>
-  </ol>
+  </ul>
   <li>Data gathering:</li>
-  <ol>
+  <ul>
     <li>Service Scanning</li>
     <li>OS fingerprinting</li>
-</ol>
+</ul>
 <h1>The Five Algorithms</h1>
 <h1>System Design and Implementation</h1>
 <h1>Metrics</h1>
