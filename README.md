@@ -8,14 +8,12 @@
 
 
 
-
-
 <h1>Project Structure</h1>
 <ul>
   <li>The final project paper can be found in the <b>docs</b> folder</li>
   <li><b>src</b> contains:
     <ol>
-      <li><b>Dataset and Features</b>: this contains the condensed dataset used in this project orginally from *here* and Python notebooks explaining the feature extraction process</li>
+      <li><b>Dataset and Features</b>: this contains the condensed dataset used in this project orginally from <a href="https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/bot_iot.php">here</a> and Python notebooks explaining the feature extraction process</li>
       <li><b>Measuring</b>: this contains the bash and Python scripts used for measuring the metrics outlined the Metrics section below</li>
       <li><b>NIDS</b>: this contains the full implementation of the basic NIDS used for testing in this project</li>
       <li><b>Classification</b>: this contains the implementations used of the five classification algorithms outlined below</li>
@@ -30,5 +28,5 @@
 <h1>Dataset Evaluation and Feature Selection</h1>
 <h1>The Five Algorithms</h1>
 <h1>System Design and Implementation</h1>
-<h1>Metrics Used</h1>
+<h1>Metrics</h1>
 <h1>Results</h1>
