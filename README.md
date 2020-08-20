@@ -51,9 +51,10 @@
   <p></p>
 <p>This meant that the models would be trained using a multi-class dataset of eleven classes (including normal/benign traffic). However
 <h1>The Five Algorithms</h1>
-  <p>The five algorithms below were used for comparison:</p>  
-  <ol>
-    <li><a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
+<p>The five algorithms below were used for comparison:</p>  
+<ol>
+  <li><a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
+</ol>  
 <h1>System Design and Implementation</h1>
 <h1>Metrics</h1>
 <h1>Results</h1>
