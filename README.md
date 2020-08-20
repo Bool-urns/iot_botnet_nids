@@ -17,6 +17,7 @@
       <li><b>Measuring</b>: this contains the bash and Python scripts used for measuring the metrics outlined the Metrics section below</li>
       <li><b>NIDS</b>: this contains the full implementation of the basic NIDS used for testing in this project</li>
       <li><b>Classification</b>: this contains the implementations used of the five classification algorithms outlined below</li>
+    </ol>
 </ul>  
 
 <h2>Installation and Usage</h2>
