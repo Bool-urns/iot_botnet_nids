@@ -56,7 +56,7 @@
 <ol>
   <li><a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
   <li><a href="https://github.com/BonsaiAI">Bonsai</a></li>
-  <li><a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
+  <li><a href="https://github.com/radu-dogaru/Super_Fast_Vector_Classifier">Super Fast Support Vector Classifier</a></li>
   <li><a href="https://xgboost.readthedocs.io/en/latest/">XGBoost</a></li>
   <li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">Random Forest (Scikit learn implementation)</a></li>
 </ol>  
