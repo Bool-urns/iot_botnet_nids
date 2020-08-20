@@ -55,6 +55,10 @@
 <p>The five algorithms below were used for comparison:</p>  
 <ol>
   <li><a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
+  <li><a href="https://github.com/BonsaiAI">Bonsai</a></li>
+  <li><a href="https://github.com/Microsoft/EdgeML/wiki/ProtoNN">ProtoNN</a></li>
+  <li><a href="https://xgboost.readthedocs.io/en/latest/">XGBoost</a></li>
+  <li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">Random Forest (Scikit learn implementation)</a></li>
 </ol>  
 <h1>System Design and Implementation</h1>
 <h1>Metrics</h1>
