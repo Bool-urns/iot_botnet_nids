@@ -29,6 +29,14 @@
 <h1>Dataset Evaluation and Feature Selection</h1>
 <p>The dataset contained ten attack classes, broken up into three main groups:</p>
 <ol>
+  <li>Denial of service</li>
+  <ol>
+    <li>TCP Dos</li>
+    <li>TCP DDoS</li>
+    <li>UDP DoS</li>
+    <li>UDP DDoS</li>
+    <li>HTTP DoS</li>
+    <li>HTTP DDos</li>
   <li>Data theft:</li>
   <ol>
     <li>Key logging</li>
