@@ -50,7 +50,8 @@
     <li>OS fingerprinting</li>
 </ul>
   <p></p>
-<p>This meant that the models would be trained using a multi-class dataset of eleven classes (including normal/benign traffic). However
+<p>This meant that the models would be trained using a multi-class dataset of eleven classes (including normal/benign traffic). However these eleven classes aren't represented equally in the dataset, most of the data represents the six denial of service classes. Nonetheless, the 15GB full dataset is available  and this was used to create a more balanced version, that better represented each of the classes. However, despite these efforts, the two data theft classes: Keylogging and Data Exfiltration were still vastly under-represented, with the latter possessing only 116 samples in the entire 15GBs. With these removed, there was a total of nine classes.</p>
+  
 <h1>The Five Algorithms</h1>
 <p>The five algorithms below were used for comparison:</p>  
 <ol>
