@@ -28,30 +28,30 @@
   <p>Many datasets exist for ML-based intrusion detection, like <a href="https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html">KDD</a> and <a href="https://www.ll.mit.edu/r-d/datasets">the DARPA ones</a> however with the focus of the project being on IoT and botnets, these datasets seemed unrealistic (and also quite old). A Number of IoT-based datasets existed such as the one created from <a href="https://arxiv.org/abs/1804.04159">this paper</a> but as <a href="https://arxiv.org/abs/1811.00701">this comparison paper</a> found in it's evaluation of IoT IDS datasets, generally these datatsets suffered from a lack of inclusion of IoT traffic, were not realistic or did not include realistic attack scenarios. This same paper that did these comparisons also created it's own dataset called <a href="https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/bot_iot.php">BoT-IoT</a>.</p>
   <p>This dataset aimed to combat the three issues listed above by simulating more realistic attack scenarios from a range of IoT devices and was ultimately chosen to be used in this project.</p>
 <h1>Dataset Evaluation and Feature Selection</h1>
-<p>The dataset contained ten attack classes, broken up into three main groups:</p>
-<ul>
-  <li><b>Denial of service</b>:</li>
+  <p>The dataset contained ten attack classes, broken up into three main groups:</p>
   <ul>
-    <li>TCP Dos</li>
-    <li>TCP DDoS</li>
-    <li>UDP DoS</li>
-    <li>UDP DDoS</li>
-    <li>HTTP DoS</li>
-    <li>HTTP DDos</li>
-  </ul>  
-  <li><b>Data theft</b>:</li>
-  <ul>
-    <li>Key logging</li>
-    <li>Data Exfiltration</li>
-  </ul>
-  <li><b>Data gathering</b>:</li>
-  <ul>
-    <li>Service Scanning</li>
-    <li>OS fingerprinting</li>
-</ul>
-<p></p>
-<p>This meant that the models would be trained using a multi-class dataset of eleven classes (including normal/benign traffic). However these eleven classes aren't represented equally in the dataset, most of the data represents the six denial of service classes. Nonetheless, the 15GB full dataset is available  and this was used to create a more balanced version, that better represented each of the classes. However, despite these efforts, the two data theft classes: Keylogging and Data Exfiltration were still vastly under-represented, with the latter possessing only 116 samples in the entire 15GBs. With these removed, there was a total of nine classes.
-</p>
+    <li><b>Denial of service</b>:</li>
+    <ul>
+      <li>TCP Dos</li>
+      <li>TCP DDoS</li>
+      <li>UDP DoS</li>
+      <li>UDP DDoS</li>
+      <li>HTTP DoS</li>
+      <li>HTTP DDos</li>
+    </ul>  
+    <li><b>Data theft</b>:</li>
+    <ul>
+      <li>Key logging</li>
+      <li>Data Exfiltration</li>
+    </ul>
+      <li><b>Data gathering</b>:</li>
+    <ul>
+      <li>Service Scanning</li>
+      <li>OS fingerprinting</li>
+    </ul>
+  <p></p>
+  <p>This meant that the models would be trained using a multi-class dataset of eleven classes (including normal/benign traffic). However these eleven classes aren't represented equally in the dataset, most of the data represents the six denial of service classes. Nonetheless, the 15GB full dataset is available  and this was used to create a more balanced version, that better represented each of the classes. However, despite these efforts, the two data theft classes: Keylogging and Data Exfiltration were still vastly under-represented, with the latter possessing only 116 samples in the entire 15GBs. With these removed, there was a total of nine classes.
+  </p>
   
 <h1>The Five Algorithms</h1>
 <p>The five algorithms below were used for comparison:</p>  
