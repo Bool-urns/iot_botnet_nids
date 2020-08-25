@@ -49,13 +49,14 @@
       <li>Service Scanning</li>
       <li>OS fingerprinting</li>
     </ul>
+  </u>
   <p></p>
   <p>This meant that the models would be trained using a multi-class dataset of eleven classes (including normal/benign traffic). However these eleven classes aren't represented equally in the dataset, most of the data represents the six denial of service classes. Nonetheless, the 15GB full dataset is available  and this was used to create a more balanced version, that better represented each of the classes. However, despite these efforts, the two data theft classes: Keylogging and Data Exfiltration were still vastly under-represented, with the latter possessing only 116 samples in the entire 15GBs. With these removed, there was a total of nine classes.
   </p>
   <p>Despite the lack of the two data theft classes, this multi- class dataset facilitated the ability to train each of the models for more detailed botnet detection. Potentially allowing for the
 multi-class predictions to be used in real-time to take more specific action against the type of threat detected.
   </p>
-  
+  <p>For the sake of brevity, the feature evaluation and selection process isn't covered fully here (look at page five of the paper in the Docs folder for more detail). What will be said is that each of the original twenty one features included in this dataset, each were evaluated in terms of the CPU utilisation, latency and maximum resident set size (an approximate value for the required RAM of a process) needed to extract each feature. This was done to better understand the most lightweight of the features.
 <h1>The Five Algorithms</h1>
 <p>The five algorithms below were used for comparison:</p>  
 <ol>
@@ -64,7 +65,8 @@ multi-class predictions to be used in real-time to take more specific action aga
   <li><a href="https://github.com/radu-dogaru/Super_Fast_Vector_Classifier">Super Fast Support Vector Classifier</a></li>
   <li><a href="https://xgboost.readthedocs.io/en/latest/">XGBoost</a></li>
   <li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">Random Forest (Scikit learn implementation)</a></li>
-</ol>  
+</ol>
+  
 <h1>System Design and Implementation</h1>
 <h1>Metrics</h1>
 <h1>Results</h1>
