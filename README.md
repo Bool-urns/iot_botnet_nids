@@ -66,7 +66,7 @@ multi-class predictions to be used in real-time to take more specific action aga
   <li><a href="https://xgboost.readthedocs.io/en/latest/">XGBoost</a></li>
   <li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">Random Forest (Scikit learn implementation)</a></li>
 </ol>
-  
+<p>These are listed in descending order in terms of how constrained each implementation is. For more information on each algorithm and their configuration for this project see pages three to nine of the paper in the Docs folder.</p>  
 <h1>System Design and Implementation</h1>
 <h1>Metrics</h1>
 <h1>Results</h1>
